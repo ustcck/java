@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>login</title>
+</head>
+<body>
+<h3>Login</h3>
+<h1>测试请求参数</h1>
+<a href="/ustcck/UServlet?username=张三">点击这里</a>
+<br>
+<form action="/ustcck/UServlet" method="post">
+  用户名:
+  <input type="text" name="username"><br>
+  密码:
+  <input type="password" name="password"><br>
+  爱好：
+  <input type="checkbox" name="hobby" value="cf">吃饭
+  <input type="checkbox" name="hobby" value="sj">睡觉
+  <input type="checkbox" name="hobby" value="cdm">敲代码
+  <br>
+  <input type="submit" value="submit">
+</form>
+</body>
+</html>
